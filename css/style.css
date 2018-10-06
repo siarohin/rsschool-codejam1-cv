@@ -84,20 +84,34 @@ a:hover {
 }
 
 #content {
-	width: 94%;
+	width: 100%;
 	display: table;
 	margin: 0 auto;
 }
 
-#content .description {
+#content div:nth-of-type(even) {
+	background-color: #cfcfcf;
+	padding: 12px 0;
+}
+
+#content div {
 	vertical-align: top;
+	margin-top: 24px;
 }
 
-.description :first-child {
+#content div :first-child {
 	display: table-cell;
-	width: 230px;	
+	width: 150px;
+	padding-right: 18px;
+	text-align: right;	
 }
 
-.description :last-child {
+#content div :last-child {
 	display: table-cell;
+	border-left: 3px solid #ccc;
+	padding-left: 18px;
+}
+
+#footer {
+	min-height: 115px;
 }
