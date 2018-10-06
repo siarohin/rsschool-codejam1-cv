@@ -85,13 +85,19 @@ a:hover {
 
 #content {
 	width: 94%;
+	display: table;
 	margin: 0 auto;
 }
 
-.description :first-child {
+#content .description {
+	vertical-align: top;
+}
 
+.description :first-child {
+	display: table-cell;
+	width: 230px;	
 }
 
 .description :last-child {
-	color: #fff;	
+	display: table-cell;
 }
