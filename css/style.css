@@ -33,6 +33,7 @@ a {
 	text-decoration: none;
 	border-bottom: 1px solid #c6dceb;
 	font-weight: normal;
+
 }
 
 a:hover {
@@ -89,28 +90,36 @@ a:hover {
 	margin: 0 auto;
 }
 
-#content div:nth-of-type(even) {
+#content #tableGrid div:nth-of-type(even) {
 	background-color: #cfcfcf;
+	border-radius: 6px;
 	padding: 12px 0;
 }
 
-#content div {
+#content #tableGrid div {
 	vertical-align: top;
 	margin-top: 24px;
 }
 
-#content div :first-child {
+#content #tableGrid div :first-child {
 	display: table-cell;
 	width: 150px;
 	padding-right: 18px;
 	text-align: right;	
 }
 
-#content div :last-child {
+#content #tableGrid div :last-child {
 	display: table-cell;
 	border-left: 3px solid #ccc;
 	padding-left: 18px;
 	padding-right: 12px;
+}
+
+#content #tableGrid div a, span, strong {
+	display: inline !important;
+	border-left: none !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
 }
 
 #footer {
