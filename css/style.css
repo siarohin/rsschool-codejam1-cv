@@ -3,7 +3,8 @@
 
 @font-face {
 	font-family: 'Bold';
-	src: url('/font/PFDinDisplayPro-Bold.eot');
+	src: url('font/PFDinDisplayPro-Bold.eot');
+	src: url('font/PFDinDisplayPro-Bold.woff');
 	font-weight: normal;
 	font-style: normal;
 }
