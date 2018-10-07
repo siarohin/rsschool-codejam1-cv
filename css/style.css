@@ -91,6 +91,10 @@ a:hover {
 	margin: 0 auto;
 }
 
+#content #tableGrid {
+	margin-bottom: 64px;
+}
+
 #content #tableGrid div:nth-of-type(even) {
 	background-color: #cfcfcf;
 	border-radius: 6px;
@@ -124,5 +128,6 @@ a:hover {
 }
 
 #footer {
-	min-height: 115px;
+	min-height: 52px;
+	margin: 112px 0 24px 0;
 }
