@@ -49,6 +49,7 @@ a:hover {
 	margin: 0 auto;
 	padding: 0 24px;
 	max-width: 1024px;
+	background-color: #ececec;
 }
 
 #header {
@@ -100,6 +101,9 @@ a:hover {
 	background-color: #cfcfcf;
 	border-radius: 6px;
 	padding: 12px 0;
+	border-radius: 6px;
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 #content #tableGrid div {
